@@ -1,0 +1,55 @@
+/* RESET BÁSICO */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--bk_color)
+}
+
+/* ESTILOS GENERALES */
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.content {
+  width: 375px;
+  /* Para que no recorte la parte que sobresalga 
+       (especialmente la .pos_half) */
+  overflow: hidden;
+  position: relative;
+  /* para manejar contenido flotante si hiciera falta */
+}
+
+/* CABECERA */
+.header {
+  /* Posición relativa para ubicar elementos absolutos dentro */
+  position: relative;
+  /* Si quieres alinear contenido textual, podrías usar display: flex; etc. 
+       Pero aquí lo dejamos simple */
+}
+
+/* CONTENEDOR DE LA IMAGEN */
+.img {
+  /* Tamaño de la figura */
+  width: 100px;
+  height: 100px;
+
+  /* 
+       Posición ABSOLUTA: su referencia es .header (porque .header es position: relative).
+       Sin alguna clase extra, la figura aparecería en la esquina superior izquierda.
+    */
+  position: absolute;
+}
+
+/* LA IMAGEN EN SÍ */
+.img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}

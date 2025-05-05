@@ -1,0 +1,80 @@
+{
+    "title": "template1",
+    "name": "Lab",
+    "main_class": "bg-mono-800 flex-center",
+    "content_class": "content h-90vh border-solid rounded-xl color-blanco",
+    "content_style": "",
+    "header": {
+        "class": "header h-3xl color-azul-mod ",
+        "content_img": {
+            "class": "img form_circle pos_half bg-neutral-600-all left-50 top-100",
+            "style": "",
+            "img": "./img/logo-construccion.png"
+        }
+    },
+    "label_name": {
+        "title": "Moreno Construcciones",
+        "label_class": "h-2xl flex justify-center align-end",
+        "label_style":"",
+        "class": "flex-center color-title-mod p-xs fs-2xl font-mod",
+        "style":""
+    },
+    "content_icons": {
+        "class": "icon-mod icon h-2xl fs-xl-all p-xs-all flex-center gap-8 rounded-xs-all border-solid-all ",
+        "style":"",
+        "icons": [
+            {
+                "name": "facebook",
+                "url": "www.facebook.com",
+                "box_class":"",
+                "box_style":"",
+                "class": ""
+            },
+            {
+                "name": "instagram",
+                "url": "#"
+            },
+            {
+                "name": "whatsapp",
+                "url": "https://wa.me/5492235930715"
+            }
+        ],
+        "effec":{
+            "bg_color":"",
+            "border_width":"",
+            "border_style":"",
+            "border_color":"",
+            "icon_color":""
+        }
+    },
+    "content_buttons": {
+        "class": "flex-col-center gap-6 w-70p-all font-mod",
+        "style":"",
+        "buttons": [
+            {
+                "name": "Web",
+                "class": "button-89 ",
+                "url": "#"
+            },
+            {
+                "name": "Instagram",
+                "url": "#",
+                "class": "button-89",
+                "style":""
+            },
+            {
+                "name": "Whatsapp",
+                "url": "#", 
+                "class": "button-89"
+            }
+            
+        ],
+        "effec":{
+            "bg_color":"",
+            "border_width":"",
+            "border_style":"",
+            "border_color":"",
+            "text_color":""
+        }
+    }
+}

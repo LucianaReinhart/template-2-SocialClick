@@ -1,0 +1,43 @@
+/* --- CLIP PATHS --- */
+
+/* 
+  Aplica el clipPath del círculo definido en <defs id="clipCircle"> 
+  Para navegadores modernos basta con url(#id).
+  Si quieres compatibilidad amplia, puedes repetir -webkit-clip-path, etc.
+*/
+.circle-clip {
+    clip-path: url(#clipCircle);
+  }
+  
+  /*
+    Si quisieras recortar la imagen en forma de triángulo en lugar del círculo,
+    podrías usar esta clase en la <image> en vez de .circle-clip
+  */
+  .triangle-clip {
+    clip-path: url(#clipTriangle);
+  }
+  
+  /* --- BORDES --- */
+  
+  /* Borde para el círculo */
+  .border-circle {
+    fill: none;      /* sin relleno, solo contorno */
+    stroke: red;     /* color del borde */
+    stroke-width: 4; /* grosor del borde */
+  }
+  
+  .border-triangle {
+    fill: none;
+    stroke: blue;
+    stroke-width: 4;
+  }
+  
+  /* Solo para que se vea centrado, etc. No es necesario para la funcionalidad. */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f8f8f8;
+  }  
